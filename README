@@ -1,0 +1,11 @@
+Cerinta 0 - archiver
+La prima cerinta am utilizat un string care citeste comanda. Il parcurg si verific corectitudinea cuvintelor in functie de comanda dorita.
+
+Cerinta 1 - create
+La cerinta 1 parcurgem fisierul files.txt iar pentru fiecare rand extragem intr-un header informatiile despre fisierul respectiv. De asemenea parcurgem si usermap.txt pentru a obtine uid si gid. Informatia din fisier o impartim in blocuri de cate 512 octeti pe care ii citim din fisier si ii scriem in arhiva. La ultimul bloc daca marimea acestuia nu este divizivbil cu 512 completam cu '\0'.
+
+Cerinta 2 - list
+La aceasta cerinta am parcurs arhiva. La fiecare fisier parcurgem headerul din care luam numele pentru a-l afisa si dimensiune fisierului pentru a parcurge mai usor arhiva.
+
+Cerinta 3 - extract
+La ultima cerinta parcurgem arhiva asemanator ca la taskul anterior doar ca aici extragem intr-un fisier nou creat infomartiile fisierului cerut in comanda.
